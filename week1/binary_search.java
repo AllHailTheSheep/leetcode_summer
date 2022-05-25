@@ -1,9 +1,9 @@
 package week1;
 
 public class binary_search {
-    // This algorithm is O(log2(n)) time as the while loop will half the size of the array each time,
-    // meaning the loop will execute log2(n) times where n is the number of elements in the array.
     public int search(int[] nums, int target) {
+        // This algorithm is O(log2(n)) time as the while loop will half the size of the array each time,
+        // meaning the loop will execute log2(n) times where n is the number of elements in the array.
         int start = 0;
         int end = nums.length - 1;
         int index = -1;
